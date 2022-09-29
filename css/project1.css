@@ -1,0 +1,187 @@
+html{
+	overflow-x: hidden;
+}
+body{
+	background-color: #FFF1E6;
+	/* overflow-x: hidden; */
+}
+h1{
+	font-family: 'Gamja Flower', cursive;
+	text-align: center;
+	color:#999999;
+	/* width: 50%; */
+	font-size: 5em;
+}
+img{
+	max-width: 100%;
+}
+figcaption{
+	margin-top: 1vw;
+	text-align: center;
+	font-style: italic;
+	font-family: 'Josefin Slab', serif;
+}
+p{
+	font-family: 'Gaegu', cursive;
+	font-size: 1.8vw;
+	color: #999999;
+}
+ul li{
+	text-align: center;
+	width: 50%;
+	font-size: 1.5vw;
+	font-family: 'Gaegu', cursive;
+	color: #999999;
+    margin-left: auto;
+    margin-right: auto;
+}
+button:hover{
+	background-color: rgb(248, 209, 182);
+	cursor: pointer;
+}
+.dessert-image-size{
+	width: 15vw;
+	height: 30vw;
+}
+.center-paragraph{
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	display: block;
+	width: 90%;
+	line-height: 2.5vw;
+}
+.button{
+	background-color: #F6E2D4;
+	border: none;
+	color: white;
+	text-align: center;
+	margin:0 auto;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 5px 10px;
+	font-family: 'Gaegu', cursive;
+  }
+.back-button{
+	height: 3vw;
+	width: 3vw;
+	color: white;
+	text-align: center;
+	border-radius: 20%;
+}
+.button-1{
+	border-radius: 60%;
+	height: 4vw;
+	line-height: 4vw;
+	width: 4vw;
+	text-align: center;
+	font-size: 2vw;
+}
+.button-2{
+	border-radius: 60%;
+	height: 4vw;
+	line-height: 4vw;
+	width: 4vw; 
+	text-align: center;
+	font-size: 2vw;
+}
+.button-3{
+	border-radius: 60%;
+	height: 4vw;
+	line-height: 4vw;
+	width: 4vw; 
+	text-align: center;
+	font-size: 2vw;
+}
+#button-group {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#intro-paragraph{
+	font-family: 'Gaegu', cursive;
+	font-size: 2em;
+	margin: auto 5vw;
+	color: #999999;
+	text-align: center;
+}
+.container {
+	width:100%; /*The container will try to fill 90% of browser width*/
+	margin:0px auto; /*This line of code is the key.  0px margin top and bottom, auto margin left and right to center*/
+	padding:0px;
+	box-sizing:border-box;/*Makes it so that padding does not add to a box's total width*/
+
+	display:flex; /*changes the container into a flex box*/
+	/* display: grid; */
+	flex-wrap:wrap; /*wrap, nowrap, wrap-reverse*/
+	flex-direction:row; /*row, row-reverse, column, column-reverse*/
+	align-content:flex-start; /*flex-start, flex-end, center, stretch, space-between, space around*/
+	align-items:stretch;
+	height: 300vh;
+}
+.imageTwo {
+	position: absolute;
+	top: 68%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.box-left{
+	flex-direction: row;
+	background-color: #F0F4FF;
+	margin:2%;
+	width: 58.6666666%;
+	padding: 2%;
+	box-sizing:border-box;
+	text-align: left;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 50px 50px 0px;
+	justify-content: space-evenly;
+	/* margin-left: 0vw; */
+	align-items: baseline;
+}
+.box-right{
+	flex-direction: row;
+	background-color: #F0F4FF;
+	margin:2%;
+	width: 58.6666666%;
+	padding: 2%;
+	box-sizing:border-box;
+	text-align: right;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 50px 0px 0px 50px;
+	justify-content: space-evenly;
+	margin-left: 40vw;
+	align-items: baseline;
+}
+.img-align-right{
+	align-content: right;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+/* .rectangle-right{
+	background-color: #FCDCCF;
+	margin:2%;
+	width: 58.6666666%;
+	padding: 2%;
+	box-sizing:border-box;
+	text-align: center;
+} */
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.center{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	display: block;
+	width: 50%;
+}

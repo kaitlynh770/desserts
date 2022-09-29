@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+    <head>
+        <title>
+            GSAP Title
+        </title>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
+    </head>
+    <header data-anijs="if: click, do: flipInY animated">
+            header (Click here)
+        </header>
+        <div id="main" data-anijs="if: mouseover, do: swing animated">
+            Main (MouseOver)
+        </div>
+        <!-- <div id="main" data-anijs="if: mouseover, on: body, do: swing animated">
+            if: load, on: window, do: swing animated
+        </div> -->
+        <br>
+        <br>
+        <footer data-anijs="if:click, do: hinge animated, to: #main">
+            footer (Click here)
+        </footer>
+        <!-- both of these links work! -->
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/AniJS/0.6.0/anijs-min.js"></script>
+        <!-- <script src = "https://anijs.github.io/lib/anijs/anijs-min.js"></script> -->
+    </body>
+</html>

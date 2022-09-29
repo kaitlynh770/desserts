@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>
+            Animate on Scroll Demo!
+        </title>
+        <meta charset = "utf-8">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Hi+Melody&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src = "aos-example.js"></script>
+        <link href = "aos-example.css" rel = "stylesheet">
+    </head>
+    <body>
+        <img src = "left-rectangle.png" data-aos = "fade-right" class = "left">
+        <img src = "right-rectangle.png" data-aos = "fade-left" class = "right">
+        <img src = "left-rectangle.png" data-aos = "fade-right" class = "left">
+        <img src = "right-rectangle.png" data-aos = "fade-left" class = "right">
+        <img src = "left-rectangle.png" data-aos = "fade-right" class = "left">
+        <img src = "right-rectangle.png" data-aos = "fade-left" class = "right">
+        <script>
+            $(function() {
+                AOS.init();
+            });
+        </script>   
+    </body>
+</html>
